@@ -1,5 +1,5 @@
 {
-  "name": "milliepoch",
+  "name": "milli-epoch",
   "description": "Utility module for epoch based time functions in milliseconds",
   "version": "0.0.1",
   "author": "Ghafran Abbas <ghafranabbas@gmail.com>",
