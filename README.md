@@ -11,7 +11,7 @@ Utility module for epoch based time functions in milliseconds
 
 ## Simple Usage
 
-code:
+code example:
 
 ```js
 var milli-epoch = require('milli-epoch');
