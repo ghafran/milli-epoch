@@ -1,0 +1,42 @@
+{
+  "name": "milliepoch",
+  "description": "Utility module for epoch based time functions in milliseconds",
+  "version": "0.0.1",
+  "author": "Ghafran Abbas <ghafranabbas@gmail.com>",
+  "homepage": "https://github.com/socialradar/milli-epoch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/socialradar/milli-epoch"
+  },
+  "main": "lib/milliepoch.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "chai": "~1.8.0",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-simple-mocha": "~0.4.0",
+    "mocha": "~1.13.0",
+    "grunt-bump": "0.0.11"
+  },
+  "keywords": [
+    "epoch",
+    "milliseconds",
+    "time",
+    "datetime",
+    "timestamp"
+  ],
+  "bugs": {
+    "url": "https://github.com/socialradar/milli-epoch/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT"
+}
