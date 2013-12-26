@@ -20,7 +20,8 @@ var now = milli-epoch.now();
 var then = milli-epoch.addMinutes(5);
 var date = new Date(then);
 
-console.log('now in milli-epoch ' + now + ' and 5 minutes from now is ' + then + 'which is ' + date.toString());
+console.log('now in milli-epoch ' + now + ' and 5 minutes from now is ' + then);
+console.log('which is ' + date.toString());
 ```
 
 ## Functions
