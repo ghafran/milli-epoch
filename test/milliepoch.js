@@ -99,6 +99,29 @@ describe('milli-epoch', function() {
             expect(years).to.be.equal(2);
             done();
         });
+
+        it('testAddSubtractDays', function(done){
+            var now = new Date().getTime();
+            var future = epoch.addDays(now, 365);
+            var alternateNow = epoch.subtractDays(future, 365);
+            expect(now).to.be.equal(alternateNow);
+            done();
+        });
+
+        it('testAddSubtractMinutes', function(done){
+            var now = new Date().getTime();
+            var future = epoch.addMinutes(now, 1440*365);
+            expect(now).to.be.equal(epoch.subtractMinutes(future, 1440*365));
+            done();
+        });
+
+        it('testAddSubtractYears', function(done){
+            var now = new Date().getTime();
+            var future = epoch.addYears(now, 5);
+            expect(now).to.be.equal(epoch.addYears(future, -5));
+            done();
+        });
+
     });
 });
 
