@@ -3,7 +3,7 @@ milli-epoch
 
 Utility module for epoch based time functions in milliseconds
 
-[![Build Status](https://secure.travis-ci.org/socialradar/milli-epoch.png)](http://travis-ci.org/socialradar/milli-epoch)
+[![Build Status](https://secure.travis-ci.org/ghafran/milli-epoch.png)](http://travis-ci.org/ghafran/milli-epoch)
 
 ## Installation
 
@@ -46,4 +46,3 @@ console.log('which is ' + date.toString());
   * fromEpoch
   * toEpoch
   * getEpochBeforeMinutes
-
