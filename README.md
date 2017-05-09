@@ -1,9 +1,10 @@
+[![Build Status](https://secure.travis-ci.org/ghafran/milli-epoch.png)](http://travis-ci.org/ghafran/milli-epoch)
+[![NSP Status](https://nodesecurity.io/orgs/ghafran/projects/c7b23114-8465-47d4-8afa-2f421c9b9bb7/badge)](https://nodesecurity.io/orgs/ghafran/projects/c7b23114-8465-47d4-8afa-2f421c9b9bb7)
+
 milli-epoch
 ==============
 
 Utility module for epoch based time functions in milliseconds
-
-[![Build Status](https://secure.travis-ci.org/ghafran/milli-epoch.png)](http://travis-ci.org/ghafran/milli-epoch)
 
 ## Installation
 
